@@ -1,0 +1,41 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  padding-top: 30px;
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 90px;
+    padding: 25px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+.logo {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+}
